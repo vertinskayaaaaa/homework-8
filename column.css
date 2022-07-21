@@ -1,0 +1,35 @@
+.container{
+    width: 1920px;
+    height: 1080px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(7, 1fr) ;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.item{
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+}
+.item-1{
+    grid-column: 1/ span 4;
+    grid-row: 1/ span 3;
+}
+.item-2 {
+    grid-row: 4/span 4;
+}
+.item-3{
+    grid-column: 2/3;
+grid-row: 4/5;
+}
+.item-4{
+    grid-column: 3/5;
+}
+.item-5{
+    grid-column: 2/4;
+}
+.item-10{
+    grid-column: 2/span 3;
+}
